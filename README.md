@@ -1,16 +1,16 @@
 # django-nextjs-realtime
 
-Here I have created a full-stack application based on Django and Nextjs to get realtime updates for sensors.
+Here I have created a full-stack application based on Django and Nextjs to get real-time updates for sensors.
 
 ## Features
 
-- Realtime update from sensor data to frontend
-- Providing realtime support using Web Sockets (Django Channels)
+- Real-time update from sensor data to frontend
+- Providing real-time support using Web Sockets (Django Channels)
 
 > This includes three Django apps
-> first one is authentication, which uses django rest auth along with JWT tokens to create a User
+> first one is authentication, which uses Django rest auth along with JWT tokens to create a User
 > second is used to provide CRUD APIs for Sensor
-> third has the consumer which will communicate with frontend server using websocket
+> third has the consumer which will communicate with frontend server using WebSocket
 
 The first app is used to create users. Over here, I have override AbstractUser and RegisterSerializer to add support for first_name and last_name.
 
