@@ -51,7 +51,7 @@ python3 start_script.py
 
 ## Extension
 
-#### How to know whether when sensor does'nt provide update for 10 min?
+#### How to notify a user when the sensor doesn't provide an update(heartbeat) for 10 min?
 
 - Here, we can update the time of the 'update_at' field for the sensor every time it sends the data, and this would require an asynchronous task queue such as celery to run a background task for filtering the sensors which are not updated in the last 10 mins. And alert the user by notifying them. Plus, we can also index the 'update_at' field to find sensors list in about logarithmic time.
 
