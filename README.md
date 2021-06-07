@@ -1,6 +1,6 @@
 # django-nextjs-realtime
 
-Here I have created a full-stack application based on Django and Nextjs to get real-time updates for sensors.
+Here I have created a full-stack application based on Django and Nextjs to get real-time updates from sensors.
 
 ## Features
 
