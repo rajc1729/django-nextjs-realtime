@@ -10,3 +10,4 @@ django-rest-auth>=0.9.5, <1.0
 channels>=3.0.3, <3.1
 channels_redis>=3.2.0, <3.3
 django-cors-headers>=3.7.0, <3.8
+websocket-client>=1.0.1, <1.1

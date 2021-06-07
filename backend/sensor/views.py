@@ -58,7 +58,7 @@ class SensorViewSet(viewsets.ModelViewSet):
         if not sensor:
             return Response({"message":"Invalid serial_no"}, status=status.HTTP_404_NOT_FOUND)
         
-        print("--->",sensor.serial_no)
+
         if str(sensor.secret_key) != secret_key:
             return Response({"message":"Invalid secret_key"}, status=status.HTTP_404_NOT_FOUND)
 
