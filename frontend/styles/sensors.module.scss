@@ -1,0 +1,26 @@
+.countries_grid {
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  // grid-gap: 20px;
+  justify-items: center;
+  // max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+.sensor_detail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.sensor_detail_container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
