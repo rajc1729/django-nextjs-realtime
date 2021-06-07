@@ -80,7 +80,7 @@ def login_user():
     return response
 
 #########################################
-## SEND SOCKET MESSAGE
+## SETUP SENSOR
 #########################################
 def setup_sensor():
     sys.stdout.write("SETTING UP SENSOR \n")
